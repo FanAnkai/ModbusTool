@@ -52,16 +52,20 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Location = new System.Drawing.Point(7, 718);
+            this.groupBox4.Location = new System.Drawing.Point(7, 663);
+            // 
+            // listBoxCommLog
+            // 
+            this.listBoxCommLog.ItemHeight = 12;
             // 
             // groupBox3
             // 
-            this.groupBox3.Size = new System.Drawing.Size(189, 110);
+            this.groupBox3.Size = new System.Drawing.Size(189, 102);
             // 
             // radioButtonInteger
             // 
-            this.radioButtonInteger.Location = new System.Drawing.Point(86, 20);
-            this.radioButtonInteger.Size = new System.Drawing.Size(64, 21);
+            this.radioButtonInteger.Location = new System.Drawing.Point(86, 18);
+            this.radioButtonInteger.Size = new System.Drawing.Size(64, 19);
             // 
             // label1
             // 
@@ -73,7 +77,7 @@
             // 
             // radioButtonReverseFloat
             // 
-            this.radioButtonReverseFloat.Location = new System.Drawing.Point(86, 40);
+            this.radioButtonReverseFloat.Location = new System.Drawing.Point(86, 37);
             // 
             // groupBoxFunctions
             // 
@@ -88,18 +92,18 @@
             this.groupBoxFunctions.Controls.Add(this.btnWriteSingleReg);
             this.groupBoxFunctions.Controls.Add(this.btnWriteSingleCoil);
             this.groupBoxFunctions.Enabled = false;
-            this.groupBoxFunctions.Location = new System.Drawing.Point(216, 144);
+            this.groupBoxFunctions.Location = new System.Drawing.Point(216, 133);
             this.groupBoxFunctions.Name = "groupBoxFunctions";
-            this.groupBoxFunctions.Size = new System.Drawing.Size(340, 128);
+            this.groupBoxFunctions.Size = new System.Drawing.Size(340, 118);
             this.groupBoxFunctions.TabIndex = 35;
             this.groupBoxFunctions.TabStop = false;
             this.groupBoxFunctions.Text = "Functions";
             // 
             // txtPollDelay
             // 
-            this.txtPollDelay.Location = new System.Drawing.Point(56, 100);
+            this.txtPollDelay.Location = new System.Drawing.Point(56, 92);
             this.txtPollDelay.Name = "txtPollDelay";
-            this.txtPollDelay.Size = new System.Drawing.Size(52, 20);
+            this.txtPollDelay.Size = new System.Drawing.Size(52, 21);
             this.txtPollDelay.TabIndex = 25;
             this.txtPollDelay.Text = "2000";
             this.txtPollDelay.Leave += new System.EventHandler(this.txtPollDelay_Leave);
@@ -107,9 +111,9 @@
             // cbPoll
             // 
             this.cbPoll.AutoSize = true;
-            this.cbPoll.Location = new System.Drawing.Point(7, 102);
+            this.cbPoll.Location = new System.Drawing.Point(7, 94);
             this.cbPoll.Name = "cbPoll";
-            this.cbPoll.Size = new System.Drawing.Size(43, 17);
+            this.cbPoll.Size = new System.Drawing.Size(48, 16);
             this.cbPoll.TabIndex = 24;
             this.cbPoll.Text = "Poll";
             this.cbPoll.UseVisualStyleBackColor = true;
@@ -117,72 +121,72 @@
             // 
             // btnReadCoils
             // 
-            this.btnReadCoils.Location = new System.Drawing.Point(6, 19);
+            this.btnReadCoils.Location = new System.Drawing.Point(6, 18);
             this.btnReadCoils.Name = "btnReadCoils";
-            this.btnReadCoils.Size = new System.Drawing.Size(78, 35);
+            this.btnReadCoils.Size = new System.Drawing.Size(78, 32);
             this.btnReadCoils.TabIndex = 11;
             this.btnReadCoils.Text = "Read coils";
             this.btnReadCoils.Click += new System.EventHandler(this.BtnReadCoilsClick);
             // 
             // btnReadDisInp
             // 
-            this.btnReadDisInp.Location = new System.Drawing.Point(6, 60);
+            this.btnReadDisInp.Location = new System.Drawing.Point(6, 55);
             this.btnReadDisInp.Name = "btnReadDisInp";
-            this.btnReadDisInp.Size = new System.Drawing.Size(78, 35);
+            this.btnReadDisInp.Size = new System.Drawing.Size(78, 32);
             this.btnReadDisInp.TabIndex = 16;
             this.btnReadDisInp.Text = "Read discrete inputs";
             this.btnReadDisInp.Click += new System.EventHandler(this.BtnReadDisInpClick);
             // 
             // btnWriteMultipleReg
             // 
-            this.btnWriteMultipleReg.Location = new System.Drawing.Point(249, 60);
+            this.btnWriteMultipleReg.Location = new System.Drawing.Point(249, 55);
             this.btnWriteMultipleReg.Name = "btnWriteMultipleReg";
-            this.btnWriteMultipleReg.Size = new System.Drawing.Size(78, 35);
+            this.btnWriteMultipleReg.Size = new System.Drawing.Size(78, 32);
             this.btnWriteMultipleReg.TabIndex = 23;
             this.btnWriteMultipleReg.Text = "Write multiple register";
             this.btnWriteMultipleReg.Click += new System.EventHandler(this.BtnWriteMultipleRegClick);
             // 
             // btnReadHoldReg
             // 
-            this.btnReadHoldReg.Location = new System.Drawing.Point(87, 19);
+            this.btnReadHoldReg.Location = new System.Drawing.Point(87, 18);
             this.btnReadHoldReg.Name = "btnReadHoldReg";
-            this.btnReadHoldReg.Size = new System.Drawing.Size(78, 35);
+            this.btnReadHoldReg.Size = new System.Drawing.Size(78, 32);
             this.btnReadHoldReg.TabIndex = 17;
             this.btnReadHoldReg.Text = "Read holding register";
             this.btnReadHoldReg.Click += new System.EventHandler(this.BtnReadHoldRegClick);
             // 
             // btnWriteMultipleCoils
             // 
-            this.btnWriteMultipleCoils.Location = new System.Drawing.Point(249, 19);
+            this.btnWriteMultipleCoils.Location = new System.Drawing.Point(249, 18);
             this.btnWriteMultipleCoils.Name = "btnWriteMultipleCoils";
-            this.btnWriteMultipleCoils.Size = new System.Drawing.Size(78, 35);
+            this.btnWriteMultipleCoils.Size = new System.Drawing.Size(78, 32);
             this.btnWriteMultipleCoils.TabIndex = 22;
             this.btnWriteMultipleCoils.Text = "Write multiple coils";
             this.btnWriteMultipleCoils.Click += new System.EventHandler(this.BtnWriteMultipleCoilsClick);
             // 
             // btnReadInpReg
             // 
-            this.btnReadInpReg.Location = new System.Drawing.Point(87, 60);
+            this.btnReadInpReg.Location = new System.Drawing.Point(87, 55);
             this.btnReadInpReg.Name = "btnReadInpReg";
-            this.btnReadInpReg.Size = new System.Drawing.Size(78, 35);
+            this.btnReadInpReg.Size = new System.Drawing.Size(78, 32);
             this.btnReadInpReg.TabIndex = 18;
             this.btnReadInpReg.Text = "Read input register";
             this.btnReadInpReg.Click += new System.EventHandler(this.BtnReadInpRegClick);
             // 
             // btnWriteSingleReg
             // 
-            this.btnWriteSingleReg.Location = new System.Drawing.Point(168, 60);
+            this.btnWriteSingleReg.Location = new System.Drawing.Point(168, 55);
             this.btnWriteSingleReg.Name = "btnWriteSingleReg";
-            this.btnWriteSingleReg.Size = new System.Drawing.Size(78, 35);
+            this.btnWriteSingleReg.Size = new System.Drawing.Size(78, 32);
             this.btnWriteSingleReg.TabIndex = 21;
             this.btnWriteSingleReg.Text = "Write single register";
             this.btnWriteSingleReg.Click += new System.EventHandler(this.BtnWriteSingleRegClick);
             // 
             // btnWriteSingleCoil
             // 
-            this.btnWriteSingleCoil.Location = new System.Drawing.Point(168, 19);
+            this.btnWriteSingleCoil.Location = new System.Drawing.Point(168, 18);
             this.btnWriteSingleCoil.Name = "btnWriteSingleCoil";
-            this.btnWriteSingleCoil.Size = new System.Drawing.Size(78, 35);
+            this.btnWriteSingleCoil.Size = new System.Drawing.Size(78, 32);
             this.btnWriteSingleCoil.TabIndex = 19;
             this.btnWriteSingleCoil.Text = "Write single coil";
             this.btnWriteSingleCoil.Click += new System.EventHandler(this.BtnWriteSingleCoilClick);
@@ -190,18 +194,18 @@
             // buttonDisconnect
             // 
             this.buttonDisconnect.Enabled = false;
-            this.buttonDisconnect.Location = new System.Drawing.Point(759, 47);
+            this.buttonDisconnect.Location = new System.Drawing.Point(759, 43);
             this.buttonDisconnect.Name = "buttonDisconnect";
-            this.buttonDisconnect.Size = new System.Drawing.Size(86, 28);
+            this.buttonDisconnect.Size = new System.Drawing.Size(86, 26);
             this.buttonDisconnect.TabIndex = 37;
             this.buttonDisconnect.Text = "Disconnect";
             this.buttonDisconnect.Click += new System.EventHandler(this.ButtonDisconnectClick);
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(759, 12);
+            this.btnConnect.Location = new System.Drawing.Point(759, 11);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(86, 28);
+            this.btnConnect.Size = new System.Drawing.Size(86, 26);
             this.btnConnect.TabIndex = 36;
             this.btnConnect.Text = "Connect";
             this.btnConnect.Click += new System.EventHandler(this.BtnConnectClick);
@@ -213,12 +217,13 @@
             // 
             // MasterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(869, 917);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.ClientSize = new System.Drawing.Size(869, 846);
             this.Controls.Add(this.buttonDisconnect);
             this.Controls.Add(this.btnConnect);
             this.Controls.Add(this.groupBoxFunctions);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "MasterForm";
             this.ShowDataLength = true;
             this.Text = "Modbus Master";

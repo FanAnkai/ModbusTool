@@ -36,6 +36,14 @@
             this.grpExchange.SuspendLayout();
             this.SuspendLayout();
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Location = new System.Drawing.Point(7, 664);
+            // 
+            // listBoxCommLog
+            // 
+            this.listBoxCommLog.ItemHeight = 12;
+            // 
             // label8
             // 
             this.label8.Visible = false;
@@ -46,29 +54,32 @@
             // 
             // buttonDisconnect
             // 
-            this.buttonDisconnect.Location = new System.Drawing.Point(758, 46);
+            this.buttonDisconnect.Location = new System.Drawing.Point(758, 42);
             this.buttonDisconnect.Name = "buttonDisconnect";
-            this.buttonDisconnect.Size = new System.Drawing.Size(86, 28);
+            this.buttonDisconnect.Size = new System.Drawing.Size(86, 26);
             this.buttonDisconnect.TabIndex = 35;
             this.buttonDisconnect.Text = "Disconnect";
             this.buttonDisconnect.Click += new System.EventHandler(this.ButtonDisconnectClick);
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(758, 12);
+            this.btnConnect.Location = new System.Drawing.Point(758, 11);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(86, 28);
+            this.btnConnect.Size = new System.Drawing.Size(86, 26);
             this.btnConnect.TabIndex = 34;
             this.btnConnect.Text = "Listen";
             this.btnConnect.Click += new System.EventHandler(this.BtnConnectClick);
             // 
             // SlaveForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(869, 887);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.ClientSize = new System.Drawing.Size(869, 846);
             this.Controls.Add(this.buttonDisconnect);
             this.Controls.Add(this.btnConnect);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(885, 885);
+            this.MinimumSize = new System.Drawing.Size(885, 885);
             this.Name = "SlaveForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SlaveFormClosing);
             this.Load += new System.EventHandler(this.SlaveFormLoading);
